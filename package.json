@@ -1,0 +1,38 @@
+{
+  "name": "maitch-search",
+  "version": "0.1.0",
+  "description": "mAItch Search — AI-native product discovery. Turns any product catalogue into an agent-queryable discovery experience: understands intent, asks one smart question (two max), delivers exactly three matches.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bin": {
+    "maitch-mcp": "./dist/layer3/mcp-stdio.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test test/*.test.ts",
+    "demo": "node --import tsx examples/demo.ts",
+    "serve": "node --import tsx examples/serve.ts",
+    "mcp": "node --import tsx src/layer3/mcp-stdio.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@modelcontextprotocol/sdk": "^1.21.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

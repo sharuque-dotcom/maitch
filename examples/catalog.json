@@ -1,0 +1,102 @@
+[
+  {
+    "id": "HP-ANC-700",
+    "title": "AeroSound 700 Wireless Headphones",
+    "description": "Over-ear wireless headphones with industry-leading active noise cancelling, 30-hour battery life and plush memory-foam earcups. Ideal for long-haul flights, open offices and deep-focus work.",
+    "brand": "AeroSound",
+    "category": ["Audio", "Headphones", "Over-ear"],
+    "price": { "amount": 299, "currency": "EUR" },
+    "attributes": {
+      "battery life": "30 hours",
+      "noise cancelling": "active, adaptive",
+      "connectivity": "Bluetooth 5.3, 3.5mm jack",
+      "weight": "254g"
+    },
+    "tags": ["travel", "office", "noise-cancelling"],
+    "inStock": true,
+    "compatibility": { "standards": ["Bluetooth 5.3", "USB-C"] },
+    "policies": { "warranty": "2-year manufacturer warranty" }
+  },
+  {
+    "id": "HP-SPT-200",
+    "title": "PulseFit Sport Earbuds",
+    "description": "Sweat-proof in-ear buds with secure ear fins, 8-hour battery and punchy bass. Built for running, gym sessions and outdoor workouts in any weather.",
+    "brand": "PulseFit",
+    "category": ["Audio", "Headphones", "In-ear"],
+    "price": { "amount": 89, "currency": "EUR" },
+    "attributes": {
+      "battery life": "8 hours (28 with case)",
+      "water resistance": "IPX7",
+      "connectivity": "Bluetooth 5.2"
+    },
+    "tags": ["sport", "running", "gym"],
+    "inStock": true,
+    "compatibility": { "standards": ["Bluetooth 5.2", "USB-C"] }
+  },
+  {
+    "id": "HP-BGT-50",
+    "title": "EchoBeam Essential On-ear Headphones",
+    "description": "Lightweight wired-or-wireless on-ear headphones at an entry-level price. Clear sound for podcasts, calls and casual listening.",
+    "brand": "EchoBeam",
+    "category": ["Audio", "Headphones", "On-ear"],
+    "price": { "amount": 39, "currency": "EUR" },
+    "attributes": {
+      "battery life": "20 hours",
+      "connectivity": "Bluetooth 5.0, 3.5mm jack"
+    },
+    "tags": ["budget", "casual"],
+    "inStock": true
+  },
+  {
+    "id": "HP-STU-900",
+    "title": "StudioReference SR-900 Monitoring Headphones",
+    "description": "Open-back studio reference headphones with a flat frequency response for mixing and mastering. Wired only, with a detachable coiled cable.",
+    "brand": "StudioReference",
+    "category": ["Audio", "Headphones", "Studio"],
+    "price": { "amount": 449, "currency": "EUR" },
+    "attributes": {
+      "design": "open-back",
+      "impedance": "250 ohm",
+      "connectivity": "wired, 6.3mm + 3.5mm"
+    },
+    "tags": ["studio", "mixing", "audiophile"],
+    "inStock": false
+  },
+  {
+    "id": "HP-KID-10",
+    "title": "TinyTunes Kids Headphones",
+    "description": "Volume-limited (85 dB) on-ear headphones for children, with a flexible unbreakable headband and fun sticker pack.",
+    "brand": "TinyTunes",
+    "category": ["Audio", "Headphones", "Kids"],
+    "price": { "amount": 29, "currency": "EUR" },
+    "attributes": {
+      "volume limit": "85 dB",
+      "connectivity": "wired, 3.5mm"
+    },
+    "tags": ["kids", "safe-listening"],
+    "inStock": true
+  },
+  {
+    "id": "ACC-CASE-700",
+    "title": "AeroSound 700 Travel Case",
+    "description": "Hard-shell travel case custom-moulded for the AeroSound 700, with a cable pocket and carabiner loop.",
+    "brand": "AeroSound",
+    "category": ["Audio", "Accessories"],
+    "price": { "amount": 35, "currency": "EUR" },
+    "tags": ["travel", "accessory"],
+    "inStock": true,
+    "compatibility": { "worksWith": ["HP-ANC-700"] }
+  },
+  {
+    "id": "ACC-DAC-1",
+    "title": "ClearSig Portable USB-C DAC/Amp",
+    "description": "Pocket-size DAC and headphone amplifier that drives high-impedance studio headphones from a phone or laptop over USB-C.",
+    "brand": "ClearSig",
+    "category": ["Audio", "Accessories"],
+    "price": { "amount": 129, "currency": "EUR" },
+    "attributes": { "output power": "300mW @ 32 ohm" },
+    "tags": ["audiophile", "accessory"],
+    "inStock": true,
+    "compatibility": { "standards": ["USB-C"], "worksWith": ["HP-STU-900"] }
+  }
+]
