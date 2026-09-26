@@ -1,0 +1,22 @@
+LINKEDIN
+--------
+Dr. Maya Rao is a solo DHA-licensed physio who treats patients at home across Dubai. Her week used to be Sheikh Zayed Road traffic, no-shows and WhatsApp phone tag.
+
+So I built Maya Moves with Lovable. It takes "can I book?" to "you're booked" with nothing for Maya to do:
+
+- Patients only see times she can physically reach, rush hour included. One form, and the slot is held for 15 minutes.
+- Six AI agents run her morning from 06:00: scheduling, bookings, reminder calls, messages, waitlist recovery and marketing.
+- When someone cancels, the slot refills itself from the waitlist. In the demo it's refilled at 07:04, AED 350 recovered, while Maya was still asleep.
+- Every patient has a 360 view: each channel, every visit, and the next best action.
+
+My entry for the Lovable x Contra "Built It For Small Business" challenge. Try the guided tour: https://maya-moves.lovable.app/
+
+
+X
+-
+Solo home physio in Dubai vs traffic, no-shows and WhatsApp phone tag.
+
+Maya Moves offers only times she can reach, has six AI agents run her morning, and refills a cancelled slot at 07:04 while she's asleep.
+
+Built with @lovable_dev for Lovable x Contra
+maya-moves.lovable.app
